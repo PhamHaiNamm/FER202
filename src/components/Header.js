@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
-import "./Header.css";
-import { ProductContext } from "./Context";
+import "../styles/Header.css";
+import { ProductContext } from "../context/Context";
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {

@@ -1,17 +1,18 @@
 import React from 'react'
-import Header from './Header'
-import RegisterPage from './RegisterPage';
-import Banner from './Banner'
-import Footer from './Footer'
-import LoginPage from './LoginPage';
-import Unauthorized from './Unauthorized';
-import { ProductProvider } from './Context'
-import MovieList from './MovieList'
-import MovieDetail from './MovieDetail'
 import { Route, Routes } from 'react-router-dom'
-import WatchMovie from './WatchMovie'
-import MovieManager from './MovieManagement'
-import ProtectedRoute from './ProtectedRoute'
+import { ProductProvider } from './context/Context';
+import Header from './components/Header';
+import Banner from './components/Banner';
+import MovieList from './pages/Home/MovieList';
+import MovieDetail from './pages/Home/MovieDetail';
+import WatchMovie from './pages/Watch/WatchMovie';
+import ProtectedRoute from './components/ProtectedRoute';
+import MovieManager from './pages/Admin/MovieManagement';
+import LoginPage from './pages/Auth/LoginPage';
+import Unauthorized from './pages/Auth/Unauthorized';
+import RegisterPage from './pages/Auth/RegisterPage';
+import Footer from './components/Footer';
+
 
 function App() {
   return (

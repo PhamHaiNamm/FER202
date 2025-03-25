@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./MovieSlider.css";
-import { ProductContext } from "./Context";
+import "../styles/MovieSlider.css";
+import { ProductContext } from "../context/Context";
 
 const MovieSlider = ({ topic }) => {
   const { phimHot, phimLe, phimBo, phimMoi, phimHay } = useContext(ProductContext);

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import { ProductContext } from "./Context";
+import { ProductContext } from "../../context/Context";
 import { useNavigate } from "react-router-dom";
-import "./MovieList.css";
+import "../../styles/MovieList.css";
 
 const MovieList = () => {
   const { phimMoi, allMovies, search, pick,get, setGet } = useContext(ProductContext);

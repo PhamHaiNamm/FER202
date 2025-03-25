@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import "./MovieDetail.css"; // Import CSS
-import { ProductContext } from "./Context";
+import "../../styles/MovieDetail.css"; // Import CSS
+import { ProductContext } from "../../context/Context";
 import { useNavigate } from "react-router-dom";
 
 const MovieDetail = () => {

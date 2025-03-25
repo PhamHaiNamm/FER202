@@ -1,6 +1,6 @@
 import React from "react";
-import "./Banner.css"; // Import file CSS riêng cho Banner
-import  {ProductContext}  from "./Context";
+import "../styles/Banner.css"; // Import file CSS riêng cho Banner
+import  {ProductContext}  from "../context/Context";
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { ProductContext } from "./Context";
-import "./WatchMovie.css";
+import { ProductContext } from "../../context/Context";
+import "../../styles/WatchMovie.css";
 
 const WatchMovie = () => {
   const { get } = useContext(ProductContext);

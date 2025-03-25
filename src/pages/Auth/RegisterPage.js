@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./LoginPage.css"; // Dùng chung CSS với trang đăng nhập
+import "../../styles/LoginPage.css"; // Dùng chung CSS với trang đăng nhập
 
 const RegisterPage = () => {
   const [email, setEmail] = useState("");
