@@ -1,45 +1,142 @@
-/* Container chung */
+/* Container chính chứa danh sách phim */
+.movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Mỗi phim hiển thị theo dạng card */
+.movie-item {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie-item:hover {
+    transform: scale(1.05);
+}
+
+/* Ảnh poster phim */
+.movie-poster {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Chi tiết phim */
+.movie-details {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Phần mô tả */
+.description {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* Nhóm nút bấm */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Nút chỉnh sửa */
+.btn-edit {
+    background: #ffc107;
+    color: black;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-edit:hover {
+    background: #e0a800;
+}
+
+/* Nút xóa */
+.btn-delete {
+    background: #dc3545;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-delete:hover {
+    background: #c82333;
+}
+
+/* Container chính */
 .container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 20px auto;
     padding: 20px;
     background-color: #f4f4f9;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
+
+/* Nút quay về trang chủ */
+
 
 /* Tiêu đề */
 h2 {
-    text-align: center;
     color: #333;
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
-/* Form nhập liệu */
+/* Form nhập */
 .form {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 15px;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 30px;
+    justify-content: center;
 }
 
-.form input {
+.form input, .form select {
+    flex: 1 1 calc(50% - 10px);
+    min-width: 250px;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 100%;
     box-sizing: border-box;
+    transition: border-color 0.3s;
 }
 
-.form input:focus {
+.form input:focus, .form select:focus {
     border-color: #007bff;
     outline: none;
 }
 
+/* Dropdown */
+.form select {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Nút thêm/lưu phim */
 .form button {
-    grid-column: span 2;
+    flex: 1 1 100%;
     padding: 12px;
     font-size: 1.2rem;
     background-color: #007bff;
@@ -52,56 +149,4 @@ h2 {
 
 .form button:hover {
     background-color: #0056b3;
-}
-
-/* Danh sách phim */
-.movie-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.movie-list li {
-    background-color: #fff;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.movie-list h3 {
-    font-size: 1.5rem;
-    color: #ffffff;
-    margin: 0;
-}
-
-.movie-list p {
-    font-size: 1rem;
-    color: #a6b632;
-    margin: 10px 0;
-}
-
-.movie-list button {
-    margin-right: 10px;
-    padding: 8px 15px;
-    font-size: 1rem;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.movie-list button:hover {
-    opacity: 0.8;
-}
-
-/* Button Sửa */
-.movie-list button:nth-child(1) {
-    background-color: #ffc107;
-}
-
-/* Button Xóa */
-.movie-list button:nth-child(2) {
-    background-color: #dc3545;
 }

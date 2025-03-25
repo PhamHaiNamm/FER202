@@ -41,20 +41,62 @@ export const ProductProvider = ({ children }) => {
     // Thêm phim mới
     const addMovie = async (newMovie) => {
         try {
-            const response = await fetch("http://localhost:9999/allMovie", {
+            // Kiểm tra xem có đầy đủ category và genre chưa
+            if (!newMovie.category || !newMovie.genre) {
+                console.warn("Thiếu category hoặc genre");
+                return;
+            }
+    
+            // Gửi phim vào danh sách allMovie
+            const responseAllMovies = await fetch("http://localhost:9999/allMovie", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(newMovie),
             });
-
-            if (!response.ok) throw new Error("Lỗi khi thêm phim");
-            
-            const addedMovie = await response.json();
+    
+            if (!responseAllMovies.ok) throw new Error("Lỗi khi thêm phim vào allMovie");
+    
+            const addedMovie = await responseAllMovies.json();
+    
+            // Cập nhật danh sách phim tổng hợp
             setAllMovies([...allMovies, addedMovie]);
+    
+            // Danh sách category hợp lệ
+            const validCategories = {
+                phimHot: setPhimHot,
+                phimLe: setPhimLe,
+                phimBo: setPhimBo,
+                phimMoi: setPhimMoi,
+                phimHay: setPhimHay
+            };
+    
+            // Kiểm tra category hợp lệ
+            if (!(newMovie.category in validCategories)) {
+                console.warn("Thể loại không hợp lệ:", newMovie.category);
+                return;
+            }
+    
+            // Gửi phim đến endpoint của thể loại tương ứng
+            const responseCategory = await fetch(`http://localhost:9999/${newMovie.category}`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(addedMovie),
+            });
+    
+            if (!responseCategory.ok) throw new Error(`Lỗi khi thêm phim vào ${newMovie.category}`);
+    
+            // Cập nhật state cho danh mục tương ứng
+            validCategories[newMovie.category]((prev) => [...prev, addedMovie]);
+    
         } catch (error) {
             console.error("Lỗi:", error);
         }
     };
+    
+    
+
+
+
 
     // Sửa thông tin phim
     const editMovie = async (id, updatedMovie) => {
@@ -87,6 +129,7 @@ export const ProductProvider = ({ children }) => {
             console.error("Lỗi:", error);
         }
     };
+
 
     const data = {
         phimHot, phimLe, phimBo, phimMoi, phimHay, allMovies, search, pick, get,

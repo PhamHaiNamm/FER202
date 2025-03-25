@@ -18,7 +18,7 @@ const Banner = () => {
   return (
     
     <div className="banner">
-      {console.log(phimMoi)
+      {console.log(phimMoi[0])
       }
       <div className="banner-content">
         <span className="tag">TV Show</span>
@@ -31,7 +31,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="banner-image">
-        <img src={`/image/${phimMoi[0]?.poster}`} alt="Movie Poster" />
+        <img src={phimMoi[0]?.poster} alt="Movie Poster" />
       </div>
     </div>
   );

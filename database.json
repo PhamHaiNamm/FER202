@@ -35,6 +35,53 @@
       "country": "Pháp",
       "link": "https://vip.opstream17.com/share/a7ea034186e14fb5f7b37cf664893cd2",
       "id": "17ac"
+    },
+    {
+      "id": "stg2cdsd",
+      "title": "Người Nhện: Không Còn Nhà",
+      "poster": "https://ophim17.cc/_next/image?url=https%3A%2F%2Fimg.ophim.live%2Fuploads%2Fmovies%2Fnguoi-nhen-khong-con-nha-thumb.jpg&w=384&q=75",
+      "description": "Bộ phim tiếp nối sự kiện của phần Spider-man: Far From Home.",
+      "rating": "4.5",
+      "genre": "phimHot",
+      "author": "Jon Watts",
+      "country": "Âu Mỹ",
+      "link": "https://vip.opstream16.com/share/4dc78ee9d84aeec573c4179447b5f17c"
+    },
+    {
+      "id": "dlynhdnv",
+      "title": "ádwd",
+      "poster": "ăcec",
+      "description": "ưadcwqd",
+      "rating": "4.0",
+      "genre": "Kinh dị",
+      "category": "phimHot",
+      "author": "dqwdqwd",
+      "country": "qưdqwd",
+      "link": "ưdqwd"
+    },
+    {
+      "id": "e10w14qy",
+      "title": "aergawef",
+      "poster": "ưefwef",
+      "description": "ewfewf",
+      "rating": "4",
+      "genre": "Hành động",
+      "category": "phimHot",
+      "author": "qwqd",
+      "country": "qưdwqd",
+      "link": "qưdwqd"
+    },
+    {
+      "id": "hcaj9n3j",
+      "title": "rynrt",
+      "poster": "hbrtbrt",
+      "description": "btrbrth",
+      "rating": "4",
+      "genre": "Hành động",
+      "category": "phimHot",
+      "author": "àe",
+      "country": "fawef",
+      "link": "ăefwa"
     }
   ],
   "phimLe": [
@@ -88,7 +135,7 @@
   "phimMoi": [
     {
       "title": "Madame Web",
-      "poster": "madame-web.jpg",
+      "poster": "https://ophim17.cc/_next/image?url=https%3A%2F%2Fimg.ophim.live%2Fuploads%2Fmovies%2Fba-me-lua-dao-thumb.jpg&w=384&q=75",
       "description": "Bộ phim siêu anh hùng thuộc vũ trụ Spider-Man với câu chuyện bí ẩn.",
       "rating": 3.9,
       "genre": "Siêu anh hùng",
@@ -224,10 +271,44 @@
       "poster": "https://ophim17.cc/_next/image?url=https%3A%2F%2Fimg.ophim.live%2Fuploads%2Fmovies%2Favengers-hoi-ket-thumb.jpg&w=384&q=75",
       "description": "Sau những sự kiện tàn khốc của Avengers: Infinity War (2018), vũ trụ đang bị hủy hoại. Với sự trợ giúp của các đồng minh còn lại, Avengers đã lắp ráp một lần nữa để đảo ngược hành động của Thanos và khôi phục lại sự cân bằng cho vũ trụ.",
       "rating": "4.5",
-      "genre": "Hành Động, Viễn Tưởng, Khoa Học",
+      "genre": "phimMoi",
       "author": "Đang cập nhật",
       "country": "Âu Mỹ",
       "link": "https://vip.opstream14.com/share/bea5b83d3a056039813089e7aa7f7e9a"
+    },
+    {
+      "id": "stg2cdsd",
+      "title": "Người Nhện: Không Còn Nhà",
+      "poster": "https://ophim17.cc/_next/image?url=https%3A%2F%2Fimg.ophim.live%2Fuploads%2Fmovies%2Fnguoi-nhen-khong-con-nha-thumb.jpg&w=384&q=75",
+      "description": "Bộ phim tiếp nối sự kiện của phần Spider-man: Far From Home.",
+      "rating": "4.5",
+      "genre": "phimHot",
+      "author": "Jon Watts",
+      "country": "Âu Mỹ",
+      "link": "https://vip.opstream16.com/share/4dc78ee9d84aeec573c4179447b5f17c"
+    },
+    {
+      "id": "bj4fw99h",
+      "title": "Người Nhện 2",
+      "poster": "https://ophim17.cc/_next/image?url=https%3A%2F%2Fimg.ophim.live%2Fuploads%2Fmovies%2Fnguoi-nhen-2-thumb.jpg&w=384&q=75",
+      "description": "Mệt mỏi với cuộc sống hai mặt.",
+      "rating": "4.0",
+      "genre": "phimHot",
+      "author": "Đang cập nhật",
+      "country": "\tÂu Mỹ",
+      "link": "https://vip.opstream16.com/share/65ded5353c5ee48d0b7d48c591b8f430"
+    },
+    {
+      "id": "hcaj9n3j",
+      "title": "rynrt",
+      "poster": "hbrtbrt",
+      "description": "btrbrth",
+      "rating": "4",
+      "genre": "Hành động",
+      "category": "phimHot",
+      "author": "àe",
+      "country": "fawef",
+      "link": "ăefwa"
     }
   ]
 }

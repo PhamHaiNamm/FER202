@@ -18,7 +18,8 @@ const MovieList = () => {
   return (
     
     <div style={{ display: "flex", justifyContent:'start' }} className="movie-list">
-      {console.log(allMovies)    }
+      {console.log(pick)
+      }
       {searchMovie.map((movie, index) => (
         <div key={index} className="movie-card" onClick={()=>handleMovieClick(movie)} >
           
