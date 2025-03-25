@@ -1,0 +1,66 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+    padding: 40px;
+    color: white;
+    position: relative;
+    height: 400px;
+  }
+  
+  .banner-content {
+    max-width: 50%;
+  }
+  
+  .tag {
+    background: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .stars {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn-black, .btn-red {
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn-black {
+    background: black;
+    color: white;
+  }
+  
+  .btn-red {
+    background: red;
+    color: white;
+  }
+  
+  .banner-image img {
+    max-height: 300px;
+    border-radius: 10px;
+  }
+  

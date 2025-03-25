@@ -1,0 +1,222 @@
+{
+   "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user123",
+      "role": "user"
+    }
+  ],
+  "phimHot": [
+    {
+      "title": "Trigger Warning: Cảnh Báo Đáp Trả",
+      "poster": "Trigger.jpg",
+      "description": "Một đặc vụ quân đội trở về quê nhà và bị cuốn vào một âm mưu nguy hiểm.",
+      "rating": 4.5,
+      "genre": "Hành động",
+      "author": "Mouly Surya",
+      "country": "Mỹ",
+      "link": "https://vip.opstream17.com/share/fffb8ef15de06d87e6ba6c830f3b6284",
+      "id": "12a4"
+    },
+    {
+      "title": "Những Người Bạn Tưởng Tượng",
+      "poster": "Ban-tuong-tuong.jpg",
+      "description": "Một cô bé có khả năng nhìn thấy những người bạn tưởng tượng của mọi người xung quanh.",
+      "rating": 4.2,
+      "genre": "Gia đình",
+      "author": "Mouly Surya",
+      "country": "Pháp",
+      "link": "https://vip.opstream17.com/share/a7ea034186e14fb5f7b37cf664893cd2",
+      "id": "17ac"
+    }
+  ],
+  "phimLe": [
+    {
+      "title": "The Infallibles",
+      "poster": "Infallibles.jpg",
+      "description": "Một nhóm cảnh sát tài ba điều tra các vụ án khó nhằn nhất trong thành phố.",
+      "rating": 4,
+      "genre": "Hình sự",
+      "author": "Mouly Surya",
+      "country": "Anh",
+      "link": "https://vip.opstream17.com/share/fffb8ef15de06d87e6ba6c830f3b6284",
+      "id": "c5a9"
+    },
+    {
+      "title": "Cửu Long Thành Trại: Vây Thành",
+      "poster": "Cuu-long.jpg",
+      "description": "Bộ phim lấy bối cảnh trong khu thành phố tội phạm nổi tiếng của Hong Kong.",
+      "rating": 4.3,
+      "genre": "Hành động",
+      "author": "Mouly Surya",
+      "country": "Trung",
+      "link": "https://vip.opstream13.com/share/c793b3be8f18731f2a4c627fb3c6c63d",
+      "id": "7f18"
+    }
+  ],
+  "phimBo": [
+    {
+      "title": "Học Viện Của Ngài Kleks",
+      "poster": "Kleks.jpg",
+      "description": "Một học viện phép thuật bí ẩn đào tạo những học sinh có tài năng đặc biệt.",
+      "rating": 4.1,
+      "genre": "Phiêu lưu",
+      "author": "Mouly Surya",
+      "country": "Mỹ",
+      "link": "https://vip.opstream17.com/share/f4984314d122393d8dee3c843cbd16d7",
+      "id": "f641"
+    },
+    {
+      "title": "Những Mảnh Ghép Cảm Xúc",
+      "poster": "insideout.jpg",
+      "description": "Bộ phim hoạt hình về các cảm xúc bên trong tâm trí của một cô bé 11 tuổi.",
+      "rating": 4.7,
+      "genre": "Hoạt hình",
+      "author": "Mouly Surya",
+      "country": "Anh",
+      "link": "https://vip.opstream17.com/share/e89c8c25e96065f551a8ceee258c8e5e",
+      "id": "6f06"
+    }
+  ],
+  "phimMoi": [
+    {
+      "title": "Madame Web",
+      "poster": "madame-web.jpg",
+      "description": "Bộ phim siêu anh hùng thuộc vũ trụ Spider-Man với câu chuyện bí ẩn.",
+      "rating": 3.9,
+      "genre": "Siêu anh hùng",
+      "author": "Mouly Surya",
+      "country": "Anh",
+      "link": "https://vip.opstream13.com/share/8b3bac12926cc1d9fb5d68783376971d",
+      "id": "0b20"
+    },
+    {
+      "title": "Dune: Hành Tinh Cát - Phần 2",
+      "poster": "dune2.jpg",
+      "description": "Tiếp tục cuộc phiêu lưu trên hành tinh sa mạc Arrakis.",
+      "rating": 4.8,
+      "genre": "Khoa học viễn tưởng",
+      "author": "Mouly Surya",
+      "country": "Pháp",
+      "link": "https://vip.opstream13.com/share/30a0b73609456022ae729282fd9753d4",
+      "id": "7a6d"
+    }
+  ],
+  "phimHay": [
+    {
+      "title": "Inception",
+      "poster": "inception.jpg",
+      "description": "Một nhóm chuyên gia thực hiện các vụ trộm trong giấc mơ của người khác.",
+      "rating": 4.9,
+      "genre": "Khoa học viễn tưởng",
+      "author": "Mouly Surya",
+      "country": "VietNam",
+      "link": "https://vip.opstream11.com/share/d54e99a6c03704e95e6965532dec148b",
+      "id": "1b55"
+    },
+    {
+      "title": "Interstellar",
+      "poster": "interstellar.jpg",
+      "description": "Hành trình xuyên không gian để tìm kiếm hành tinh có thể sống được cho nhân loại.",
+      "rating": 4.9,
+      "genre": "Khoa học viễn tưởng",
+      "author": "Mouly Surya",
+      "country": "VietNam",
+      "link": "https://vip.opstream14.com/share/83adc9225e4deb67d7ce42d58fe5157c",
+      "id": "f1d8"
+    }
+  ],
+  "allMovie": [
+    {
+      "title": "The Infallibles",
+      "poster": "Infallibles.jpg",
+      "description": "Một nhóm cảnh sát tài ba điều tra các vụ án khó nhằn nhất trong thành phố.",
+      "rating": "5",
+      "category": "phimLe",
+      "genre": "Hình sự",
+      "author": "Mouly Surya",
+      "country": "Anh",
+      "link": "https://vip.opstream17.com/share/fffb8ef15de06d87e6ba6c830f3b6284",
+      "id": "bc1f"
+    },
+    {
+      "title": "Cửu Long Thành Trại: Vây Thành",
+      "poster": "Cuu-long.jpg",
+      "description": "Bộ phim lấy bối cảnh trong khu thành phố tội phạm nổi tiếng của Hong Kong.",
+      "rating": 4.3,
+      "category": "phimLe",
+      "genre": "Hành động",
+      "author": "Mouly Surya",
+      "country": "Trung",
+      "link": "https://vip.opstream13.com/share/c793b3be8f18731f2a4c627fb3c6c63d",
+      "id": "e675"
+    },
+    {
+      "title": "Học Viện Của Ngài Kleks",
+      "poster": "Kleks.jpg",
+      "description": "Một học viện phép thuật bí ẩn đào tạo những học sinh có tài năng đặc biệt.",
+      "rating": 4.1,
+      "category": "phimBo",
+      "genre": "Phiêu lưu",
+      "author": "Mouly Surya",
+      "country": "VietNam",
+      "link": "https://vip.opstream17.com/share/f4984314d122393d8dee3c843cbd16d7",
+      "id": "c66f"
+    },
+    {
+      "title": "Những Mảnh Ghép Cảm Xúc",
+      "poster": "insideout.jpg",
+      "description": "Bộ phim hoạt hình về các cảm xúc bên trong tâm trí của một cô bé 11 tuổi.",
+      "rating": 4.7,
+      "category": "phimBo",
+      "genre": "Hoạt hình",
+      "author": "Mouly Surya",
+      "country": "Mỹ",
+      "link": "https://vip.opstream17.com/share/e89c8c25e96065f551a8ceee258c8e5e",
+      "id": "4f83"
+    },
+    {
+      "title": "Madame Web",
+      "poster": "madame-web.jpg",
+      "description": "Bộ phim siêu anh hùng thuộc vũ trụ Spider-Man với câu chuyện bí ẩn.",
+      "rating": 3.9,
+      "category": "phimMoi",
+      "genre": "Siêu anh hùng",
+      "author": "Mouly Surya",
+      "country": "Mỹ",
+      "link": "https://vip.opstream13.com/share/8b3bac12926cc1d9fb5d68783376971d",
+      "id": "3442"
+    },
+    {
+      "title": "Dune: Hành Tinh Cát - Phần 2",
+      "poster": "dune2.jpg",
+      "description": "Tiếp tục cuộc phiêu lưu trên hành tinh sa mạc Arrakis.",
+      "rating": 4.8,
+      "category": "phimMoi",
+      "genre": "Khoa học viễn tưởng",
+      "author": "Mouly Surya",
+      "country": "VietNam",
+      "link": "https://vip.opstream13.com/share/30a0b73609456022ae729282fd9753d4",
+      "id": "1f2a"
+    },
+    {
+      "title": "Interstellar",
+      "poster": "interstellar.jpg",
+      "description": "Hành trình xuyên không gian để tìm kiếm hành tinh có thể sống được cho nhân loại.",
+      "rating": 4.9,
+      "category": "phimHay",
+      "genre": "Khoa học viễn tưởng",
+      "author": "Mouly Surya",
+      "country": "Pháp",
+      "link": "https://vip.opstream14.com/share/83adc9225e4deb67d7ce42d58fe5157c",
+      "id": "b9b1"
+    }
+  ]
+}

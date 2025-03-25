@@ -1,0 +1,121 @@
+/* Định dạng toàn bộ phần chi tiết phim */
+.movie-detail {
+    position: relative;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Background mờ */
+  .background {
+    background: url("") no-repeat center center/cover;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+  }
+  
+  /* Nội dung chính */
+  .content {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    padding: 100px;
+    align-items: center;
+  }
+  
+  /* Phần poster phim */
+  .poster {
+    position: relative;
+  }
+  
+  .poster img {
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Hướng dẫn xem phim */
+  .watch-instruction {
+    background: linear-gradient(to right, #00264d, #004080);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .highlight {
+    color: yellow;
+    font-style: italic;
+  }
+  
+  /* Phần thông tin phim */
+  .info {
+    margin-left: 40px;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+  
+  h3 {
+    color: #aaa;
+    font-size: 18px;
+  }
+  
+  .details p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Nút chức năng */
+  .imdb-btn, .share-btn, .save-btn {
+    background: #f5c518;
+    border: none;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .share-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .save-btn {
+    background: #222;
+    color: white;
+  }
+  
+  /* Mô tả phim */
+  .description {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Thể loại */
+  .genres {
+    margin-top: 20px;
+  }
+  
+  .genres span {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,21 @@
+.watch-movie {
+  text-align: center;
+  background: black;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.video-container iframe {
+  width: 80%;
+  height: 450px;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}

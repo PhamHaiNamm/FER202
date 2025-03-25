@@ -1,0 +1,63 @@
+.movie-slider {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.movie-slider h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.movie-item {
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.movie-item:hover {
+  transform: scale(1.1);
+}
+
+.movie-title {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
