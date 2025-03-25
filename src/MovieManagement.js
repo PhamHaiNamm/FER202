@@ -92,7 +92,7 @@ const MovieManager = () => {
                 {allMovies.map((movie) => (
                     <li key={movie.id}>
                         <h3>{movie.title}</h3>
-                        <img src={`/image/${movie?.poster}`} alt={movie.title} style={{ width: '150px', height: 'auto' }} />
+                        <img src={movie?.poster} alt={movie.title} style={{ width: '150px', height: 'auto' }} />
                         <p>{movie.description}</p>
                         <p><strong>Rating:</strong> {movie.rating}</p>
                         <p><strong>Genre:</strong> {movie.genre}</p>

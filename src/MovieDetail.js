@@ -13,7 +13,7 @@ const MovieDetail = () => {
       </div>
       <div className="content">
         <div className="poster">
-          <img src={`/image/${get?.poster}`} alt="Beat the Tiger" />
+          <img src={get?.poster} alt="Beat the Tiger" />
           <div className="watch-instruction">
             <p>Để xem phim</p>
             <p><strong>Bấm vào ảnh phim</strong></p>
